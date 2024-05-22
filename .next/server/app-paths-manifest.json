@@ -1,0 +1,6 @@
+{
+  "/newsfeed/style1/page": "app/newsfeed/style1/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/not-found": "app/not-found.js",
+  "/authentication/login/page": "app/authentication/login/page.js"
+}
