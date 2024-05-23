@@ -5,11 +5,11 @@ import Link from "next/link";
 const BrandLogo = ({ differentLogo }: { differentLogo?: string }) => {
   return (
     <div className="brand-logo">
-      <Link href="/newsfeed/style1">
+      <Link href="/newsfeed/style6">
         <Image
-          width={147}
-          height={46}
-          src={`${ImagePath}/icon/${differentLogo?differentLogo:"logo.png"}`}
+          width={40}
+          height={10}
+          src="/assets/images/logo.png"
           alt="logo"
           className="img-fluid blur-up lazyloaded"
         />

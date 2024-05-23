@@ -8,10 +8,7 @@ const LeftContent = ({padding}:{padding?:boolean}) => {
     <div className={`content-left ${!padding ?"p-0":""}`}>
       <UserProFile />
       <FriendSuggestion />
-      <div className="sticky-top">
-      <LikePage />
-      <WeatherSection />
-    </div>
+      
     </div>
   );
 };

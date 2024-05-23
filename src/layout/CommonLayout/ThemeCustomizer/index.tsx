@@ -6,10 +6,7 @@ const ThemeCustomizer: FC = () => {
   const [settingPageOpen, setSettingPageOpen] = useState(false);
   return (
     <>
-      <ThemeSettings
-        settingPageOpen={settingPageOpen}
-        setSettingPageOpen={setSettingPageOpen}
-      />
+      
       <SettingPage
         settingPageOpen={settingPageOpen}
         setSettingPageOpen={setSettingPageOpen}

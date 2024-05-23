@@ -17,9 +17,9 @@ const RightSection: FC = () => {
             <DynamicFeatherIcon iconName="Home" className="icon-light stroke-width-3 iw-16 ih-16"/>
           </a>
         </li>
-        <li className="header-btn custom-dropdown dropdown-lg add-friend">
+        <li className="header-btn custom-dropdown dropdown-lg add-friend" >
           <a className={`main-link ${showFriendList ? "show" : ""}`} href={Href}>
-            <DynamicFeatherIcon iconName="UserPlus" className="icon-light stroke-width-3 iw-16 ih-16" onClick={() => setShowFriendList(!showFriendList)}/>
+            <DynamicFeatherIcon iconName="UserPlus"  onClick={() => setShowFriendList(!showFriendList)}/>
           </a>
           <div className={`dropdown-menu ${showFriendList ? "show" : ""}`}>
             <div className="dropdown-header">
@@ -31,7 +31,7 @@ const RightSection: FC = () => {
             <DropdownContent />
           </div>
         </li>
-        <HeaderMessage />
+       
         <DarkLight />
         <Notification />
         <UserProfile />

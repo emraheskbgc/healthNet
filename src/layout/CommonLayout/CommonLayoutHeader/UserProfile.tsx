@@ -19,7 +19,7 @@ const UserProfile: FC = () => {
           </div>
           <Media body className="d-none d-md-block">
             <h4>Josephin water</h4>
-            <span>{ActiveNow}</span>
+           
           </Media>
         </Media>
       </a>

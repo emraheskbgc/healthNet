@@ -22,7 +22,6 @@ import FavoriteGallery from "@/layout/Skelton/FavoriteGallery";
 import MusicSkelton from "@/layout/Skelton/MusicSkelton";
 import WeatherSkelton from "@/layout/Skelton/WeatherSkelton";
 import EventSkelton from "@/layout/Skelton/EventSkelton";
-import BirthDaySkelton from "@/layout/Skelton/BirthDaySkelton";
 import GameSkelton from "@/layout/Skelton/GameSkelton";
 import ProfileTimeLine from "@/layout/Skelton/ProfileTimeLine";
 import AboutProfileSkelton from "@/layout/Skelton/AboutProfileSkelton";
@@ -85,7 +84,7 @@ export const sideBarData: sideBarDataType[] = [
   { path: "/newsfeed/style1", icon: "File", tooltipTittle: "newsfeed" },
   { path: "/favourite/home", icon: "Star", tooltipTittle: "Favourite" },
   { path: Href, icon: "User", tooltipTittle: "Groups" },
-  { path: "/music", icon: "Headphones", tooltipTittle: "Music" },
+ 
   { path: "/weather", icon: "Cloud", tooltipTittle: "Weather" },
   { path: "/event", icon: "Calendar", tooltipTittle: "Event" },
 ];
@@ -292,7 +291,6 @@ export const skeltonLoaderList: { [key: string]: React.ReactElement } = {
   music: <MusicSkelton />,
   weatherSkelton: <WeatherSkelton />,
   eventSkelton: <EventSkelton />,
-  birthDayLoader: <BirthDaySkelton />,
   gameSkelton: <GameSkelton />,
   profileTimeLine: <ProfileTimeLine />,
   aboutProfileSkelton: <AboutProfileSkelton />,

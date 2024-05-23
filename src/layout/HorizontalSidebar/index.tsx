@@ -33,7 +33,7 @@ const HorizontalSidebar: FC<HorizontalSidebarInterFace> = ({children,toggleMenu,
         </Container>
       </header>
       {children}
-      <ThemeCustomizer />
+      
     </>
   );
 };

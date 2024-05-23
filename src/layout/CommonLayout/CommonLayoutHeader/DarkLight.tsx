@@ -11,9 +11,9 @@ const DarkLight: React.FC = () => {
   
   };
   return (
-    <li className="header-btn custom-dropdown" onClick={() => MoonlightToggle(moonlight)}>
-      <a className="main-link" href={Href}>
-        <DynamicFeatherIcon iconName={moonlight ? "Sun" : "Moon"} className="icon-light stroke-width-3 iw-16 ih-16"/>
+    <li  onClick={() => MoonlightToggle(moonlight)}>
+      <a  href={Href}>
+        <DynamicFeatherIcon iconName={moonlight ? "Sun" : "Moon"} />
       </a>
     </li>
   );

@@ -24,7 +24,7 @@ const LoginForm:React.FC = () => {
         <a href="#" className="forget-password">{ForgetPassword}</a>
       </div>
       <div className="btn-section">
-        <a href="#" className="btn btn-solid btn-lg">
+        <a href="/newsfeed/style6" className="btn btn-solid btn-lg">
           {Login}
         </a>
         <Link href="/auth/register" className="btn btn-solid btn-lg ms-auto">

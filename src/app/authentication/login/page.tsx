@@ -10,7 +10,7 @@ const Login = () => {
     <>
     <LoadingLoader/>
     <section className="login-section">
-      <LoginHeaderSection />
+
       <AuthenticationMainSection />
       <div className="how-work">
         <Media>

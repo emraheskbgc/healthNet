@@ -16,12 +16,7 @@ const HeaderCenter: FC = () => {
             </a>
           </li>
         ))}
-        <li>
-          <Link href="/birthday"><SvgIconCommon iconName="cake" className="bar-icon fill-white" /></Link>
-        </li>
-        <li>
-          <Link href="/games"><SvgIconCommon iconName="game-controller" className="bar-icon fill-white"/></Link>
-        </li>
+      
       </ul>
     </div>
   );

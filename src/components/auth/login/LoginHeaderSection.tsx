@@ -9,7 +9,7 @@ const LoginHeaderSection = () => {
   return (
     <div className="header-section">
       <div className="logo-sec">
-        <Link href="/newsfeed/style1">
+        <Link href="/newsfeed/style6">
           <Image height={46} width={147} src={iconLogo} alt="logo" className="img-fluid blur-up lazyloaded"/>
         </Link>
       </div>

@@ -20,7 +20,7 @@ const AuthenticationForm:React.FC = () => {
   const formSubmitHandle = () => {
     if (email === "Test@gmail.com" && password === "Test@123") {
       Cookies.set("token", JSON.stringify(true));
-      router.push("/newsfeed/style1");
+      router.push("/newsfeed/style6");
       toast.success("login successful");
     } else {
       toast.error("wrong");

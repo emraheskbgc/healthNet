@@ -10,8 +10,8 @@ const UserMessage = () => {
         {userMessageData.map((data, index) => (
           <li key={index}>
             <a href={Href}>
-              <Media>
-                <Image width={40} height={40} src={`${ImagePath}/user-sm/${index + 1}.jpg`} alt="user"/>
+                <Media>
+                  <Image width={40} height={40} src={`${ImagePath}/user-sm/${index + 1}.jpg`} alt="user"/>
                 <Media body>
                   <div>
                     <h5 className="mt-0">{data.name}</h5>

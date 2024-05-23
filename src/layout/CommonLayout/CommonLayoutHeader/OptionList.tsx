@@ -8,7 +8,7 @@ const OptionList: FC = () => {
   return (
     <ul className="option-list">
       <HeaderMessage />
-      <DarkLight />
+     
       <Notification />
       <UserProfile />
     </ul>

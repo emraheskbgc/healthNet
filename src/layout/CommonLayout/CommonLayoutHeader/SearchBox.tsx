@@ -8,8 +8,6 @@ const SearchBox: React.FC = () => {
   const {isComponentVisible,ref,setIsComponentVisible} =useOutsideDropdown(false)
   return (
     <div ref={ref} className={`search-box ${isComponentVisible ? "show" : ""}`}>
-      <DynamicFeatherIcon iconName="Search" className="icon iw-16 icon-light" />
-      <Input type="text" className="search-type" placeholder="find friends..." onClick={() => setIsComponentVisible(true)}/>
       <div className="icon-close">
         <DynamicFeatherIcon iconName="X" className="iw-16 icon-light" onClick={() => setIsComponentVisible(false)}/>
       </div>

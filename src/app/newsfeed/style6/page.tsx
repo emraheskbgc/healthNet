@@ -22,12 +22,12 @@ const NewsFeedStyle6: FC = () => {
             <LeftContent />
           </div>
           <div className="page-center">
-            <StorySection storyShow={6} />
+           
             <Container fluid className="section-t-space px-0">
               <div className="page-content">
                 <div className="content-center content-full">
                   <Row>
-                    <Col xl="6">
+                    <Col xl="12">
                       <CreatePost />
                       <div className="overlay-bg" />
                       <div className="post-panel section-t-space">
@@ -36,20 +36,13 @@ const NewsFeedStyle6: FC = () => {
                         <SufiyaElizaThirdPost fourthPost={2} userImage={1} />
                       </div>
                     </Col>
-                    <Col xl="6">
-                      <div className="post-panel">
-                        <SufiyaElizaMapPost />
-                        <SufiyaElizaFirstPost mainImage={3} userImage={1} className="section-t-space"/>
-                        <SufiyaElizaThirdPost userImage={1} iframeLink="https://giphy.com/embed/LMQb9Rpm7mZOVsOI5R"/>
-                        <SufiyaElizaSecondPost userImage={1} />
-                      </div>
-                    </Col>
+                    
                   </Row>
                 </div>
               </div>
             </Container>
           </div>
-          <ConversationPanel sidebarClassName=" " />
+         
         </Container>
       </HorizontalSidebar>
     </>
