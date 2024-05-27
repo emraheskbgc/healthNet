@@ -19,7 +19,6 @@ const WithUserLayout: FC<WithUserLayoutInterFace> = ({children,mainClassName,loa
       <Container fluid className={`page-body newsfeed-style6 ${mainClassName ? mainClassName : ""}`}>
         <PanelSideBar />
         {children}
-        <ConversationPanel sidebarClassName="" />
       </Container>
       <ThemeCustomizer />
     </>

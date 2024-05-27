@@ -2,6 +2,7 @@
 import { Container } from "reactstrap";
 import LeftHeader from "./LeftHeader";
 import RightHeader from "./RightHeader";
+
 import { CommonLayoutHeaderInterFace } from "@/layout/LayoutTypes";
 
 const CommonLayoutHeader: React.FC<CommonLayoutHeaderInterFace> = ({headerClassName,differentLogo}) => {
@@ -11,9 +12,11 @@ const CommonLayoutHeader: React.FC<CommonLayoutHeaderInterFace> = ({headerClassN
       <Container fluid={true} className="custom-padding">
         <div className="header-section">
           <LeftHeader differentLogo={differentLogo} />
+          
           <RightHeader />
         </div>
       </Container>
+      
     </header>
   );
 };

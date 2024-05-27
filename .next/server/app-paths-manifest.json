@@ -1,1 +1,6 @@
-{}
+{
+  "/newsfeed/style10/page": "app/newsfeed/style10/page.js",
+  "/authentication/login/page": "app/authentication/login/page.js",
+  "/newsfeed/style6/page": "app/newsfeed/style6/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
