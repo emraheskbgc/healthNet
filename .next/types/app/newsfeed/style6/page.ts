@@ -1,8 +1,8 @@
 // File: /Users/emrah/Desktop/healthNet/src/app/newsfeed/style6/page.tsx
-import * as entry from '../../../../../src/app/newsfeed/style6/page.js'
+import * as entry from '../../../../../src/app/newsfeed/style1/page.jsx'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../src/app/newsfeed/style6/page.js')
+type TEntry = typeof import('../../../../../src/app/newsfeed/style1/page.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

@@ -11,15 +11,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/newsfeed/style6/page": [
+    "/newsfeed/style1/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/newsfeed/style6/page.js"
+      "static/chunks/app/newsfeed/style1/page.js"
     ],
-    "/newsfeed/style10/page": [
+    "/newsfeed/style2/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/newsfeed/style10/page.js"
+      "static/chunks/app/newsfeed/style2/page.js"
+    ],
+    "/newsfeed/style3/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/newsfeed/style3/page.js"
     ]
   }
 }
